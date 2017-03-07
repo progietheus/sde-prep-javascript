@@ -31,6 +31,7 @@ BinarySearchTree.prototype.push = function(value){
 		if(value < currentNode.value) {
 			if(!currentNode.left){
 				currentNode.left = newNode;
+				break;
 			}
 			else{
 				currentNode = currentNode.left;
@@ -39,6 +40,7 @@ BinarySearchTree.prototype.push = function(value){
 		else{
 			if(!currentNode.right){
 				currentNode.right = newNode;
+				break;
 			}
 			else{
 				currentNode = currentNode.right;
@@ -46,3 +48,15 @@ BinarySearchTree.prototype.push = function(value){
 		}
 	}
 }
+
+// var bst = new BinarySearchTree();
+// bst.push(3);
+// console.log(bst);
+// bst.push(4);
+// console.log(bst);
+// bst.push(1);
+// console.log(bst);
+// bst.push(6);
+// console.log(bst);
+// bst.push(8);
+// console.log(bst);
