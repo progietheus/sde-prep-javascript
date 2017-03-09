@@ -1,8 +1,7 @@
 //Data Structures
 //Binary Search Tree JavaScript implementation
 //Methods: push(val)
-//Source: https://khan4019.github.io/front-end-Interview-Questions/bst.html
-//
+
 //A node should have a value, a left value, and a right value
 function Node(data) {
     this.value = data;

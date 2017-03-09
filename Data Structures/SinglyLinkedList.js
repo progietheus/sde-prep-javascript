@@ -1,7 +1,6 @@
 //Singly-Linked list JavaScript implementation
 //Methods: add(value), searchNodeAt(position), remove(position)
-//Source: https://code.tutsplus.com/articles/data-structures-with-javascript-singly-linked-list-and-doubly-linked-list--cms-23392
-//
+
 //A node should have data and a pointer to the next node
 function Node(data) {
     this.data = data;
